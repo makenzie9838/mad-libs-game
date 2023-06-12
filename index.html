@@ -11,7 +11,7 @@
 
     <title>Mad Libs Word Game</title>
 
-    <link href="" rel="stylesheet" />
+    <link href="styles/style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
@@ -21,22 +21,120 @@
   </head>
 
   <body>
-    <div>
-        <label for="customname">Enter custom name:</label>
-        <input id="customname" type="text" placeholder="" />
+    <h2>Mad Libs Word Game</h2>
+    
+    <div> 
+      <label for="story1">Story 1</label
+      ><input id="story1" type="radio" name="story" value="1" checked />
+
+      <label for="story2">Story 2</label
+      ><input id="story2" type="radio" name="story" value="2" />
     </div>
 
     <div>
-        <label for="us">US</label
-        ><input id="us" type="radio" name="ukus" value="us" checked />
-        <label for="uk">UK</label
-        ><input id="uk" type="radio" name="ukus" value="uk" />
+        <label for="adj1">Enter an adjective:</label>
+        <input id="adj1" class="storyinput" type="text" placeholder="" />
     </div>
 
     <div>
-        <button class="randomize">Generate random story</button>
+        <label for="person">Enter a person's name:</label>
+        <input id="person" class="storyinput" type="text" placeholder="" />
     </div>
 
-    <p class="story"></p>
+    <div>
+      <label for="place">Enter a name of a place:</label>
+      <input id="place" class="storyinput" type="text" placeholder="" />
+    </div>
+
+    <div>
+      <label for="clothing">Enter an article of clothing:</label>
+      <input id="clothing" class="storyinput" type="text" placeholder="" />
+    </div>
+
+    <div>
+      <label for="adj2">Enter an adjective:</label>
+      <input id="adj2" class="storyinput" type="text" placeholder="" />
+    </div>
+
+    <div>
+      <label for="adj3">Enter an adjective:</label>
+      <input id="adj3" class="storyinput" type="text" placeholder="" />
+    </div>
+
+    <div>
+      <label for="adj4">Enter an adjective:</label>
+      <input id="adj4" class="storyinput" type="text" placeholder="" />
+    </div>
+
+    <div>
+      <label for="adj5">Enter an adjective:</label>
+      <input id="adj5" class="storyinput" type="text" placeholder="" />
+    </div>
+
+    <div>
+      <label for="song">Enter the name of a song:</label>
+      <input id="song" class="storyinput" type="text" placeholder="" />
+    </div>
+
+    <div>
+      <label for="pastTenseVerb1">Enter a verb in the past tense:</label>
+      <input id="pastTenseVerb1" class="storyinput" type="text" placeholder="" />
+    </div>
+
+    <div>
+      <label for="noun1">Enter a noun:</label>
+      <input id="noun1" class="storyinput" type="text" placeholder="" />
+    </div>
+
+    <div>
+      <label for="noun2">Enter a noun:</label>
+      <input id="noun2" class="storyinput" type="text" placeholder="" />
+    </div>
+
+    <div>
+      <label for="pastTenseVerb2">Enter a verb in the past tense:</label>
+      <input id="pastTenseVerb2" class="storyinput" type="text" placeholder="" />
+    </div>
+
+    <div>
+      <label for="pastTenseVerb3">Enter a verb in the past tense:</label>
+      <input id="pastTenseVerb3" class="storyinput" type="text" placeholder="" />
+    </div>
+
+    <div>
+      <label for="noun3">Enter a noun:</label>
+      <input id="noun3" class="storyinput" type="text" placeholder="" />
+    </div>
+
+    <div>
+      <label for="noun4">Enter a noun:</label>
+      <input id="noun4" class="storyinput" type="text" placeholder="" />
+    </div>
+
+    <div>
+      <label for="verb1">Enter a verb:</label>
+      <input id="verb1" class="storyinput" type="text" placeholder="" />
+    </div>
+
+    <div>
+      <label for="verb2">Enter a verb:</label>
+      <input id="verb2" class="storyinput" type="text" placeholder="" />
+    </div>
+
+    <div>
+      <label for="verb3">Enter a verb:</label>
+      <input id="verb3" class="storyinput" type="text" placeholder="" />
+    </div>
+
+    <div>
+      <label for="adj6">Enter an adjective:</label>
+      <input id="adj6" class="storyinput" type="text" placeholder="" />
+    </div>
+
+    <div>
+        <button class="generateStory">Generate story</button>
+    </div>
+
+    <div id="storyOutput"></div>
   </body>
 </html>
